@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Digital Clock</title>
+  <style>
+    .clock-container {
+      background-color: black;
+      color: white;
+      padding: 20px;
+      position: absolute;
+      text-align: center;
+      font-size: 30px;
+      top: 50%;
+      left: 50%;
+      height: 400px;
+      width: 600px;
+      transform: translate(-50%,-50%);
+    }
+    #startBtn {
+      position: absolute;
+      bottom: 20px;
+      left: 30%;
+      height: 40px;
+      width: 120px;
+    }
+    #stopBtn {
+      position: absolute;
+      bottom: 20px;
+      right: 30%;
+      height: 40px;
+      width: 120px;
+    }
+    #clock {
+      top: 40px;
+      font-size: 120px;
+    }
+    #date {
+      padding-top: 40px;
+      font-size: 50px;
+    }
+    h1 {
+      font-size: 30px;
+      font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+  </style>
+</head>
+<body>
+  <div class="clock-container">
+    <h1>Digital Clock</h1>
+    <div id="clock">00:00:00</div>
+    <div id="date">1/1/2023</div>
+    <button id="startBtn">Start</button>
+    <button id="stopBtn">Stop</button>
+  </div>
+
+  <script src="script.js">
+    // Function to update the clock display
+    
+  </script>
+</body>
+</html>
